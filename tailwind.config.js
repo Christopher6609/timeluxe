@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        libre: "Libre Bodoni",
+      },
+
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
