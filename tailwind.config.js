@@ -10,7 +10,10 @@ module.exports = {
       fontFamily: {
         libre: "Libre Bodoni",
       },
-
+      backgroundImage: {
+        background1: "url('/img/Frame 848.png')",
+        aboutBackground: "url('/img/Frame 860.png')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
