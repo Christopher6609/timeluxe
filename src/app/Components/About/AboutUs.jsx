@@ -13,7 +13,7 @@ const roboto = Roboto({
 });
 const AboutUs = () => {
   return (
-    <div className="bg-aboutBackground bg-center bg-cover h-[35.6875rem] flex justify-center items-center">
+    <div className="bg-aboutBackground bg-center bg-cover bg-fixed h-[35.6875rem] flex justify-center items-center">
       <div className="bg-[#000000] bg-opacity-20 h-[24.5rem] w-[65.0625rem] py-[4.69rem] px-[5.38rem] space-y-[4.47rem]">
         <div className="text-center space-y-[1.62rem]">
           <h1
