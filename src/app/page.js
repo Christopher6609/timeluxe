@@ -5,6 +5,7 @@ import BrandPartners from "./Components/Partners/BrandPartners";
 import Offer from "./Components/Offer/Offer";
 import Categories from "./Components/Categories/Categories";
 import BestSelling from "./Components/BestSelling/BestSelling";
+import CustomerFeedback from "./Components/Feedback/CustomerFeedback";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
         <Offer />
         <Categories/>
         <BestSelling />
+        <CustomerFeedback/>
+        
     </main>
   );
 }

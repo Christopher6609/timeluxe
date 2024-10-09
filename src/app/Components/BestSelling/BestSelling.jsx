@@ -19,12 +19,12 @@ const libreBasker = Libre_Baskerville({
 const BestSelling = () => {
   return (
     <div className="flex gap-[3.38rem]">
-      <div className="w-[36rem] h-[35.75rem] py-[6.125rem] px-[3.125rem] flex justify-center items-center flex-shrink-0 bg-[#f5f4f4]">
+      <div className="w-[36rem] h-[35.75rem] py-[6.125rem] px-[3.125rem] flex justify-center items-center flex-shrink-0 bg-[#f5f4f4]  ">
         <Image
           src="/img/Frame 903.png"
           width={2350}
           height={29}
-          className=" w-[23.5rem] "
+          className=" w-[23.5rem] hover:rotate-90 hover:duration-300 hover:ease-in hover:scale-[1.1] hover:transition-all "
         />
       </div>
       <div className="flex flex-col justify-center items-start">

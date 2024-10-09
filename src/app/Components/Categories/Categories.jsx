@@ -38,32 +38,36 @@ const Categories = () => {
         </button>
       </div>
       <div className="flex-col space-y-[2.25rem] py-[2.25rem]">
-        <div className="flex gap-[1.75rem] ">
+        <div className="flex gap-[1.75rem] justify-center ">
           <Image
             src="/img/Component 2.png"
             alt="category1"
             width={328125}
             height={293125}
+            className="w-[32.8125rem] hover:transition-all hover:scale-[1.1]"
           />
           <Image
             src="/img/Component 3.png"
             alt="category1"
             width={429375}
             height={293125}
+            className="w-[42.9375rem] hover:transition-all hover:scale-[1.1]"
           />
         </div>
-        <div className="flex gap-[1.75rem] ">
+        <div className="flex gap-[1.75rem] justify-center ">
           <Image
             src="/img/Component 8.png"
             alt="category1"
             width={429375}
             height={293125}
+            className="w-[42.9375rem] hover:transition-all hover:scale-[1.1]"
           />
           <Image
             src="/img/Component 4.png"
             alt="category1"
             width={328125}
             height={293125}
+            className="w-[32.8125rem] hover:transition-all hover:scale-[1.1]"
           />
         </div>
       </div>
